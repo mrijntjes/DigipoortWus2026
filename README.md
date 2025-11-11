@@ -1,3 +1,8 @@
+# Digipoort migratie document t.b.v. vernieuwde Digipoort 2026
+https://aansluiten.procesinfrastructuur.nl/site/documentatie/digipoort-migratie-instructie-voor-het-wus-koppelvlak
+(logius account vereist)
+
+
 # DigipoortWusConnection
 Sample code provided by OpenSBR to communicate with the Dutch government Digipoort gateway.
 
