@@ -163,9 +163,6 @@
     <None Include="Connected Services\ServiceReferenceStatusInformatie\LogiusDigipoort.ServiceReferenceStatusInformatie.getStatussenProcesResponse1.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="cs-bedrijven_procesinfrastructuur_nl.crt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <WCFMetadataStorage Include="Connected Services\ServiceReferenceAanleveren\" />

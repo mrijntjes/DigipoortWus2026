@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="a8700ffb-c628-4132-8de6-67ac7e54ea14" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="a8700ffb-c628-4132-8de6-67ac7e54ea14" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
@@ -19,7 +19,7 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="https://cs-bedrijven.procesinfrastructuur.nl/cpl/statusinformatieservice/1.2?wsdl" Protocol="http" SourceId="1" />
+    <MetadataSource Address="https://wus.preproductie.digipoort.logius.nl/wus/2.0/statusinformatieservice/1.2?wsdl" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
     <MetadataFile FileName="digipoort-koppelvlak-1.xsd" MetadataType="Schema" ID="72eea343-b411-4313-9ffb-9e42d5fca251" SourceId="1" SourceUrl="https://cs-bedrijven.procesinfrastructuur.nl/cpl/digipoort-koppelvlak-1.2.xsd" />
