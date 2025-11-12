@@ -2,21 +2,33 @@
 https://aansluiten.procesinfrastructuur.nl/site/documentatie/digipoort-migratie-instructie-voor-het-wus-koppelvlak
 (logius account vereist)
 
+# Informatie t.o.v. het originele sample project
+Deze repository is een update van het originele Digipoort sample programma gemaakt door OpenSBR.<br/><br/>
+Dit project (en het originele project) geeft overigens alleen een voorbeeld van de Digipoort services: AanleverService, StatusInformatieService en OphaalService.<br/><br/>
 
-# DigipoortWusConnection
-Sample code provided by OpenSBR to communicate with the Dutch government Digipoort gateway.
+De volgende aanpassing zijn nieuw:
+* De 3 endpoints voor de Aanlever-, StatusInformatie-, en OphaalService zijn bijgewerkt
+* Er zijn een paar extra defines toegevoegd aan het begin van de Program class met wat meer uitleg
+* Dit project is getest op werking  
 
-Logius (Dutch government ICT organziation) provides more information on how to register and connect to Digipoort:
-* https://aansluiten.procesinfrastructuur.nl/
-* https://aansluiten.procesinfrastructuur.nl/site/en/
+# Digipoort
 
-## Original author
-This sample code is based on documentation provided by Logius:
-* https://aansluiten.procesinfrastructuur.nl/site/binaries/content/assets/documentatie/ontwikkelondersteuning/wus-connection-test-stubs-final-1.0.pdf
+Digipoort gebruikt de koppelvlakstandaard WUS 2.0. Waarbij WUS een acroniemis voor de standaarden WSDL, UDDI en SOAP.
 
-## About Digipoort
-Digipoort is the machine-to-machine gateway for sending in tax filings, annual reports, statistics, etc. to the respective government agencies.
 
-## More information
-* https://www.sbr-nl.nl/
-* https://www.logius.nl/
+# Overige notities
+
+Dit is een Fork van het originele Digipoort sample programma gemaakt door OpenSBR. Gebaseerd op de documentatie van Logius
+
+Link naar origine repository:<br/>
+https://github.com/OpenSBR/DigipoortWusConnection
+
+OpenSBR:<br/>
+https://www.sbr-nl.nl/
+
+Logius:<br/>
+https://www.logius.nl/
+
+Huidige technische aansluitvoorwaarden voor Digipoort:<br/>
+**Let op! Deze specificatie kan nog steeds als basis worden gebruikt maar wordt ten dele vervangen door het Digipoort migratie document**<br/>
+https://aansluiten.procesinfrastructuur.nl/site/binaries/content/assets/documentatie/ontwikkelondersteuning/wus-connection-test-stubs-final-1.0.pdf
