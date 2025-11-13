@@ -9,7 +9,9 @@ Dit project (en het originele project) geeft overigens alleen een voorbeeld van 
 De volgende aanpassing zijn nieuw:
 * De 3 endpoints voor de Aanlever-, StatusInformatie-, en OphaalService zijn bijgewerkt
 * Er zijn een paar extra defines toegevoegd aan het begin van de Program class met wat meer uitleg
-* Dit project is getest op werking  
+* Dit project is getest op werking
+
+Geen garantie, maar eventueel benatwoord ik vragen via matti.rijntjes@gmail.com
 
 # Digipoort
 
